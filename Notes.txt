@@ -1,0 +1,37 @@
+Software requirements:
+Install Java JDK 11 in ur machine available from the Oracle Website. 
+Install Eclipse in ur machine
+
+OOP features of Java:
+Java is a programming language  that is  used in a platform independent manner. It is used to develop applications that can be executed on various streams and platforms.
+Java is also a platform. 
+What is a platform? It is a secured Environment or a place where UR Programs work or execute. Java gives U an environment in which Ur code will execute, this is called as Java Runtime Environment(JRE)
+The JRE is designed to stand on any platform available in the computing world. This makes it a platform independent Environment. U need to download the JRE depending on the OS U wish to execute. 
+For Windows users,  U can download the latest version of Eclipse and with it comes the new JDK that internally has the required JRE as well the libraries  for building and executing Ur application. 
+
+What does Java offer?
+Java is one programming language that is  very popular in the programming world. U can build different kinds of apps thru' it. Desktop based, Web Based, Mobile based, data centric applications. Java cannot be used to build system level software, it is designed to be platform independent and System level works only relative to a specific system on which U install it. 
+Java has similarities with C++ and has removed the confusing parts of C++ and added new features to make it more easy to use. 
+It is Object Oriented, making it very easy to develop and create robust applications. 
+
+What is a programming language?
+A Programming language in computers is a set of instructions that U could  give to a  computer so that it understands on what needs to done. Computers understand a sp language in the form of binary values. Programming languages are human readable instructioins that are grouped, converted into instructions that is understandable to computers and get info or actions that is required to be performed by the computer. Eg: Cobol, C, C++, Java,C#, PHP and many more...
+
+Java was designed by James Gosling in 1995, who worked in Sun Microsystems which is currently owned by Oracle. 
+
+Features of java:
+Simple(easy), Object Oriented(features are good), Portable(Multiple platforms), Robust(large scale apps), secure(High level of security to run on various macs), high performance(well tested)...
+
+No pointers in Java. 
+No global functions in Java
+It has automatic memory management. 
+It has dual compilation process: A code is compiled to a intermediatary code which will be recompiled and executed on the JRE. 
+
+Create the Java Apps:
+Java apps could be created using notepad or any kind of text editor. 
+But professionally U use an IDE to develop Java Apps. Of that Eclipse is the most popular IDE available for Java App development.
+
+
+  
+
+

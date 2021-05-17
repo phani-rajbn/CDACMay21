@@ -1,0 +1,8 @@
+Questions:
+1. function
+2. variable
+3. parameter or argument
+4. const
+5. Naming convention in a programming language
+6. Signature of a function. 
+7. Declaring a function, defining a function and calling a function.
