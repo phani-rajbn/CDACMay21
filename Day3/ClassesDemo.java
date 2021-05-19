@@ -6,7 +6,7 @@ public class ClassesDemo {
 	     //Display the ID, Name and Location...
 	     System.out.println("The ID is " + student.getId());
 	     System.out.println("The Name is " + student.getName());
-	     System.out.println("The Location is " + student.getLocation());s
+	     System.out.println("The Location is " + student.getLocation());
 	}
 }
 
