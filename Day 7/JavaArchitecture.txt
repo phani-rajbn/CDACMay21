@@ -1,0 +1,43 @@
+Java Architecture:
+Collection of components: JVM, JRE and JDK. It integrates the process of compiling, interpreting and executing UR code on a secured environment. 
+Purposes of creating a new Programming language like Java:
+Common code to be executed on multiple machines without a need to compile again. 
+Simplified C++ coding. No confusing terminologies, unnessasary umbiguties, pointers to be usable internally by the environment and not to be provided to the developers. Automatic memory management to avoid memory drains. 
+
+There is a concept of dual compilation in Java. Compilation and Intepretation(Earlier). Now there is no interpretation, it is now JIT(Just in Time) Compilation. 
+
+Code that is written in Java will be converted to intermediate code called BYTE CODE. This is created by the Java compiler when U compile the code using Javac command. The class files that U get after compilation is nothing but byte code.  
+
+Class Loader is responsible for 3 things: Loading, linking and Initialization.
+Loading: The class loader component will read the ".Class" file, generates a corresponding metadata(info about the class) and saves it into Method Area. 
+An instance of a class called "Class" that is defined in Java.lang package is loaded using UR class's getClass method. This is done in the Heap area of the JVM Memory. 
+
+Linking: Performs verification, preparation. 
+Initialization: The class members are initialized first with static block , static members from top to bottom of the class and from Parent to Child in the class hierarchy.
+
+MethodArea: Here the class info is stored. Name, its methods, dependencies....Static variables, static blocks, static emthods, instance methods are stored in this area.
+
+Heap: A heap is created when the JVM Starts up. The heap size will increase or decrease while the app runs due to the objects being created and destroyed.
+
+Stack: JVM stack is called a Thread Stack. It is the data area of the JVM that is created for a single execution thread. If there are multiple threads, each thead will create a Stack of its own. This area of memory will be used by the thread to create local variables, partial results and data for calling methods and return values.
+
+PC Registers: Store address of the current execution of the thread. Of course, each thread will have its own set of PC Registers. 
+
+Native Stack: This contains the info of all the methods used in our applications.
+
+Execution Engine: After all the units are loaded into their respective memories, the engine will execute the byte code and the Java classes. It is done by 2 components: JIT Compiler and Garbage Collector. 
+JIT Compiler is a part of the Runtime Environment that compiles the byte code into machine code at runtime. machine code is something that is optimized to run on a specific machine(OS and its architecture)
+As the code executes, any method UR code calls will be compiled just before it is executed. Just in time is what it means.
+GC job is to collect unused data in the heap, it keeps track of each and every object available in the Heap area and removes any unwanted objects or memory. 
+
+To make the JVM work on that specific OS, java will use Native interfaces and libraries(C/C++) that will help JVM to do its job on the specific OS. 
+
+PTR:
+Full form of JVM is Java Virtual machine, which is basically a environment that runs Ur java code. It's main job is to convert the byte code developed by java compiler to the native instruction code of a specific machine. 
+JVM architecture contains Class Loaders, Memory Area and Execution Engine.
+JIT Compiler that is a part of the JVM is used to compile the byte code faster and execute it on the machine in which it is installed. 
+When compared to other machine compilers, JVM is slow in execution due to the following reasons:
+Dynamic linking: The linking of the code is done everytime the program is run in Java. 
+Runtime interpretation done thro JIT compiler is slightly slower than others. 
+
+//Collections Framework. 
