@@ -1,0 +1,44 @@
+What is Java? 
+Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable, therefore. it is widely used for developing applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc.
+
+Where Java is used in real world?
+Andriod Apps, develop Enterprise software(Software that is used by multiple users together across various locations with all support that is requried for an organization to run), Big Data Analytics, Web Apps development and many more. 
+Java and JavaScript are not same, they dont have any relation except the word java.  
+
+Developed by SUN MICROSYSTEMS, now taken over by ORACLE. First released in 1995, latest version 2020 called Java SE-15. 
+
+What is a platform?
+A stage/place that comprises of hardware and software on which apps and programs run. OS is a platform. OS is a platform software that runs on a hardware(Computer System). 
+Java is called as platform because it is a collection of prorams that help the programmers develop and run Java Programming applications. It has its own Execution ENgine, a compiler and a set of libraries in it. 
+
+Features:
+Simple, easy to use programming language. 
+Write code once, run it on almost any computing platform. Java is platform independent. UR Code can run on almost all Operating Systems.
+Designed to build Object oriented applications. 
+It supports multi threading for creating complex applications. 
+It supports automatic memory management using Garbage Collector, a component within Java.
+Has support for creating Web centric Applications that run on Web servers. 
+
+Components of Java Programming language:
+Java Programs are developed and saved as .java files. The code typically contain classes, interfaces, enums that make the application. For easy maintanence, the code is devided into multiple files. U dont write everything in one file. U can group the classes conceptually using 'PACKAGES'. Java itself will give U the classes grouped as packages. 
+UR machine needs 3 Java platform components to make this work:
+JDK(Java Development Kit). 
+Why JDK? JDK contains the tools required to write Java programs. It also contains JRE to execute them. It comes with a compiler, Java App Launcher and many more tools. 
+JVM(Java Virtual Machine): Is an Engine that provides an environment to run the Java code or Applications. It is a part of the JRE. In other programming languages, compiler compiles the code into machine code on a perticular machine. In Java, the compiler compiles the code to run on Virtual machine called JVM. 
+JVM provides a platform independent way of executing Java code. It comes with numerous frameworks and libraries to make Ur code execute. It has JIT Compiler that converts the Compiler code into low level machine code to make it execute on that machine. 
+JRE(Java Runtime Environment): Is the part of the JDK that contains loaders, libraries to create an environment for Java applications to execute. If U want UR java program to run on a machine, U must install a JRE for that platform on that machine before U run the program.  
+
+There are different platforms in Java: SE(Std Edition), Java EE(Enterprise Edition). Java ME(Micro Edition), Java FX(Rich Internet based Applications). 
+
+How UR code is executed in Java?
+UR source code is created and saved under an extension .java
+Use the Java compiler to compile the source file, the code gets converted into .class files. For every class U create, it will generate a .class file. This is called as BYTE CODE. 
+When U run the Java program, the byte code will be converted to machine native code by the JIT Compiler of the JVM and execute the program that is optimized to run on that machine. 
+
+Software requirements for Java development:
+Choose UR OS from where UR app development will happen.
+Download the JDK atleast 8.0 from Oracle Website. 
+Choose an appropriate IDE for App development. However for learning purpose, u could use any text editor like notepad, SUBLIME TEXT, NOTEPAD++....
+VS code, NetBeans and ECLIPSE are the most popular IDEs for developing Java Apps.  
+
+For Windows Programmers: U should set the Environment variable called PATH to the location of the JDK's Bin folder before U try UR programs. 
